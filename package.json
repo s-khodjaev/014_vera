@@ -1,0 +1,26 @@
+{
+  "name": "vera",
+  "version": "1.0.0",
+  "description": "vera website built using bootstrap 5",
+  "keywords": [
+    "vera",
+    "bootstrap"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git remote add origin https://github.com/s-khodjaev/014_vera.git"
+  },
+  "license": "MIT",
+  "author": "skhodjaev",
+  "type": "commonjs",
+  "main": "index.html",
+  "scripts": {
+    "sass:build": "sass --no-source-map scss:css",
+    "sass:watch": "sass --no-source-map --watch scss:css"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^7.2.0",
+    "bootstrap": "^5.3.8",
+    "sass": "^1.99.0"
+  }
+}
